@@ -10,7 +10,9 @@ function Heading() {
           <Navbar.Brand href="/">
             <img src="img/Logo Zece La Informatica.png" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link href="#top">Acasa</Nav.Link>
