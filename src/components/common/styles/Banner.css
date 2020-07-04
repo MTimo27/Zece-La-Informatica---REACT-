@@ -1,0 +1,26 @@
+#banner {
+  background-image: linear-gradient(to right, #73c2fb 0%, #0080ff 100%);
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.promo-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 100px;
+  -webkit-animation-duration: 3s !important;
+}
+
+.promo-text {
+  font-size: 27px;
+  font-weight: 300;
+  margin-top: 20px;
+  -webkit-animation-duration: 3s !important;
+}
+
+.img-fluid {
+  border-radius: 30px;
+  width: 450px;
+  -webkit-animation-duration: 3s !important;
+}
