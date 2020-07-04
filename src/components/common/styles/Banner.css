@@ -24,3 +24,17 @@
   width: 450px;
   -webkit-animation-duration: 3s !important;
 }
+
+@media (max-width: 767px) {
+  .promo-title {
+    font-size: 30px;
+  }
+
+  .promo-text {
+    font-size: 20px;
+  }
+
+  h1.title {
+    font-size: 30px;
+  }
+}
