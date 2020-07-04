@@ -1,0 +1,46 @@
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #73c2fb 0%, #0080ff 100%);
+  padding: 10px !important;
+}
+
+img {
+  height: 60px;
+  padding-left: 20px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: #fff !important;
+  padding: 0 15px !important;
+}
+
+.dropdown .dropdown-menu a {
+  color: #000 !important;
+  text-transform: uppercase;
+}
+
+.dropdown .dropdown-menu a:hover {
+  color: #fff !important;
+  background-color: #0080ff;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 25px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  margin-right: 5px;
+}
