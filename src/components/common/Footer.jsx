@@ -1,5 +1,12 @@
 import React from 'react';
 import './styles/Footer.css';
+import {
+  FaFacebookSquare,
+  FaInstagram,
+  FaYoutube,
+  FaEnvelope,
+  FaHeart,
+} from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -18,30 +25,67 @@ function Footer() {
               </p>
               <a target="blank" href="#">
                 <p>
-                  <i className="fab fa-facebook-square icons"></i>Pagina noastra
-                  de Facebook
+                  <FaFacebookSquare className="icons" />
+                  Pagina noastra de Facebook
                 </p>
               </a>
               <a target="blank" href="#">
                 <p>
-                  <i className="fab fa-youtube icons"></i>Canalul nostru de
-                  Youtube
+                  <FaInstagram className="icons" />
+                  Pagina noastra de Instagram
+                </p>
+              </a>
+              <a target="blank" href="#">
+                <p>
+                  <FaYoutube className="icons" />
+                  Canalul nostru de Youtube
                 </p>
               </a>
               <p>
-                <i className="fa fa-envelope icons"></i>greenrooftop@gmail.com
+                <FaEnvelope className="icons" />
+                zecelainformatica@gmail.com
               </p>
             </div>
 
             <div className="col-md-4 footer-box">
               <p>
-                Here you can find the best icons:
+                <b>CREDITS</b>
+              </p>
+              <p>
+                Here you can find the best icons:{' '}
                 <a target="blank" href="https://icons8.com/">
                   ICONS8
                 </a>
               </p>
               <p>
-                Illustrations by:
+                Individual ICONS8 icon links:{' '}
+                <a
+                  target="blank"
+                  href="https://icons8.com/icon/EVnYSXoaRlSq/cinema"
+                >
+                  Cinema,{' '}
+                </a>
+                <a
+                  target="blank"
+                  href="https://icons8.com/icon/uJOoDz71OZQk/learning"
+                >
+                  Learning,{' '}
+                </a>
+                <a
+                  target="blank"
+                  href="https://icons8.com/icon/k5yrvE-6Igws/module"
+                >
+                  Module,{' '}
+                </a>
+                <a
+                  target="blank"
+                  href="https://icons8.com/icon/zoV7N3K3Bkz1/program"
+                >
+                  Program{' '}
+                </a>
+              </p>
+              <p>
+                Illustrations by:{' '}
                 <a target="blank" href="https://dribbble.com/urancd">
                   Uran
                 </a>
@@ -54,8 +98,7 @@ function Footer() {
           <hr />
           <p className="copyright">
             &copy;Copyright all rights reserved to Zece La Informatica <br />
-            Website, and logo made with
-            <i className="fas fa-heart"></i> by
+            Website, and logo made with <FaHeart /> by{' '}
             <a target="blank" href="https://github.com/MTimo27">
               Mihai Timoficiuc
             </a>
