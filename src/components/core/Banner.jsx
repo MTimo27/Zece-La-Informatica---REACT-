@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Banner.css';
+import './styles/animate.css';
 
 function Banner() {
   return (
