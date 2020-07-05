@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Services.css';
+import './styles/animate.css';
 
 function Services() {
   return (

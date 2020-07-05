@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import Heading from './components/common/Heading';
-import Banner from './components/common/Banner';
-import Services from './components/common/Services';
-import AboutUs from './components/common/AboutUs';
-import Testimonials from './components/common/Testimonials';
-import Footer from './components/common/Footer';
+import Banner from './components/core/Banner';
+import Services from './components/core/Services';
+import AboutUs from './components/core/AboutUs';
+import Testimonials from './components/core/Testimonials';
+import Footer from './components/core/Footer';
 
 function App() {
   return (
